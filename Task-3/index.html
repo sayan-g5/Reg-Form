@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="container">
+        <form>
+            <h1>Registration Form </h1>
+            <div class="divcontainer">
+                <img src="mail-icon-11549825367za0blj7xnt.png" alt="mail">
+                <input type="email" id="umail" placeholder="Enter Email...">
+            </div>
+            <div class="divcontainer">
+                <img src="pngtree-key-vector-icon-png-image_470666.jpg" alt="">
+                <input type="password" id="upass" placeholder="Enter Password...">
+            </div>
+            <div class="divcontainer sub">
+                <div class="divsubcontainer">
+                   <img src="user.png" alt="">
+                    <input type="text" id="ufirstname" placeholder="first name">
+                </div>
+                <div class="divsubcontainer">
+                    <img src="user.png" alt="">
+                    <input type="text" id="ulastname" placeholder="Last Name">
+
+                </div>
+            </div>
+            <div class="divcontainer genderbox">
+                <div class="gender" id="genderfirst">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <!-- <div class="divcontainer select">
+                <select id="country">
+                    <option id="select country">Select a country</option>
+                    <option id="India">India</option>
+                    <option id="Japan">Japan</option>
+                    <option id="USA">USA</option>
+                    <option id="China">China</option>
+                    <option id="Australia">Australia</option>
+                    <option id="Dubai">Dubai</option>
+                </select>
+            </div> -->
+            <div class="divcontainer websitelink">
+                <input type="text" id="weblink" placeholder="Enter Your Website Link">
+            </div>
+            <div class="divcontainer skills">
+                <input type="text" id="skill" placeholder="Enter Your Skills (e.g: Web Development)">
+            </div>
+            <div class="divcontainer checkbox">
+                <input type="checkbox" id="termsandconditions">
+                <label for="termsandconditions">I agree to the terms and conditions</label>
+            </div>
+            <div class="divcontainer checkbox">
+                <input type="checkbox" id="newsletter">
+                <label for="newsletter">I want to receive newsletter</label>
+            </div>
+            <div class="divcontainer button">
+                <input type="button" name="" id="submitButton" value="Register">
+            </div>
+            
+        </form>
+        
+    </div>
+    <div class="outputContainer">
+        <h1>Student Details</h1>
+        <div class="outputCard"></div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
+
+
