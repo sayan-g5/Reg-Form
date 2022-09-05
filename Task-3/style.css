@@ -150,7 +150,7 @@ select option{
     background-color: white;
     color: black;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 .outputContainer h1 {
     margin-top: 2%;
