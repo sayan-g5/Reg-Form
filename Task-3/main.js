@@ -25,11 +25,13 @@ submitButton.addEventListener("click", function() {
         outputCard.innerHTML += `
         <div class="card">
         <div class="card-body">
-        <h4 class="title"><b>Name:</b> ${firstName.value} ${lastName.value}</h4>
-        <p class="text">${male.checked ? male.value : female.checked ? female.value : "Others"}</p>
-        <p class="text"><b>E-mail:</b> ${userEmail.value}</p>
-        <p class="text"><b>Website:</b> ${weblink.value}</p>
-        <p class="text"><b>Skills:</b> ${skill.value}</p>
+        <ul style="list-style-type:none">
+        <li><h4 class="title"><b>Name:</b> ${firstName.value} ${lastName.value}</h4></li>
+        <li><p class="text"><b>Gender:</b> ${male.checked ? male.value : female.checked ? female.value : "Others"}</p></li>
+        <li><p class="text"><b>E-mail:</b> ${userEmail.value}</p></li>
+        <li><p class="text"><b>Website:</b> ${weblink.value}</p></li>
+        <li><p class="text"><b>Skills:</b> ${skill.value}</p></li>
+        </ul>
         </div>
         </div>`
 
